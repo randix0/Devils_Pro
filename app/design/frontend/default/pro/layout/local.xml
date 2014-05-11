@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <remove name="left.permanent.callout"/>
+        <remove name="right.permanent.callout"/>
+        <remove name="paypal.partner.right.logo"/>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/pro.css</stylesheet>
+            </action>
+        </reference>
+        <remove name="top.search"/>
+        <reference name="top.container">
+            <block type="core/text" template="pro/nav_cms.phtml"></block>
+        </reference>
+    </default>
+</layout>

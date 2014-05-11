@@ -1,0 +1,13 @@
+body {background: none;}
+.header-container {background: none; border: none 0;}
+.nav-container {background: none;}
+.main-container {background: none;}
+.footer-container {background: #333; border-top: 10px solid #666666;}
+.header .welcome-msg {color: #333333;}
+.header .form-search {background: none}
+.header .logo {display: block; margin: 0 auto; padding: 0; float: none; text-align: center;}
+/*.quick-access {display: none;}*/
+.main {background: none;}
+.block {border: none 0;}
+.block .block-content {background: none;}
+.block .block-title {background: none; text-indent: 0;}
